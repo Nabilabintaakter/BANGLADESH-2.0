@@ -8,6 +8,7 @@
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+    background-color: #F5F5F5;
 }
 
 /* nav styles */
@@ -31,7 +32,7 @@ nav p {
     box-sizing: border-box;
     border: 1px solid rgba(0, 106, 80, 1);
     border-radius: 8px;
-    transition: all 0.3s;
+    transition: all 0.1s;
 }
 
 .btn-sign-in:hover {
@@ -79,7 +80,7 @@ nav p {
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: all 0.1s;
     border: 1px solid rgba(0, 106, 80, 1);
 }
 
@@ -88,4 +89,44 @@ nav p {
     background: transparent;
     border: 1px solid rgba(0, 106, 80, 1);
     color: rgba(0, 106, 80, 1);
+}
+
+/* pillar styles */
+.pillar-container {
+    margin: 80px 0px;
+}
+
+.pillar-container h1 {
+    margin-bottom: 32px;
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.pillars {
+    display: flex;
+    gap: 24px;
+}
+
+.pillar {
+    width: 302px;
+    gap: 24;
+    padding: 24px;
+    background-color: green;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.pillar h3 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pillar p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
 }
