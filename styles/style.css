@@ -172,7 +172,7 @@ nav p {
     background: rgba(247, 235, 207, 1);
 }
 
-.vision-container h1 {
+.vision-container h1 .opinion-container h1 {
     margin-bottom: 24px;
     color: rgba(14, 14, 14, 1);
     font-size: 40px;
@@ -236,7 +236,7 @@ nav p {
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: left 24px top 24px;
-    background-size: 84px 84px;
+    background-size: 80px 80px;
 }
 
 
@@ -245,6 +245,8 @@ nav p {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 12px;
+    line-height: 24px;
+    letter-spacing: 0%;
 }
 
 .yunus-quote h4 {
@@ -261,4 +263,60 @@ nav p {
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+/* opinion styles */
+.opinion-container {
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    margin: 80px 0;
+
+}
+
+.opinion-table {
+    padding: 32px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.opinion-table table {
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
+    overflow: hidden;
+    border: 1px solid rgb(223, 222, 222);
+}
+
+.opinion-table th {
+    background-color: #cbe3d4;
+    color: #000;
+    font-weight: 600;
+    text-align: left;
+    padding: 24px;
+}
+
+.opinion-table td {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    color: rgba(14, 14, 14, 1);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.opinion-select {
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid #b7d3c7;
+    background-color: #e3f0ea;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: rgba(14, 14, 14, 1);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.opinion-select:hover {
+    background-color: #d4ebe0;
+    border-color: #80bfa6;
 }
