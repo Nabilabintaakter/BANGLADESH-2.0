@@ -87,7 +87,6 @@ nav p {
 /* Hover effect */
 .btn-primary:hover {
     background: transparent;
-    border: 1px solid rgba(0, 106, 80, 1);
     color: rgba(0, 106, 80, 1);
 }
 
@@ -102,6 +101,7 @@ nav p {
     font-size: 40px;
     font-weight: 700;
 }
+
 
 .pillars {
     display: flex;
@@ -119,7 +119,7 @@ nav p {
     background: rgba(255, 255, 255, 1);
 }
 
-.pillar h3 {
+.pillar h3 .vision h3 {
     color: rgba(14, 14, 14, 0.8);
     font-size: 20px;
     font-weight: 700;
@@ -129,4 +129,136 @@ nav p {
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     font-weight: 400;
+}
+
+/* vision styles */
+.visions {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.vision {
+
+    width: 410.67px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+
+}
+
+.vision p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.vision-1 {
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.vision-2 {
+    background: rgba(198, 228, 214, 1);
+}
+
+.vision-3 {
+    background: rgba(247, 235, 207, 1);
+}
+
+.vision-container h1 {
+    margin-bottom: 24px;
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.vision-container p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.learn-more-btn {
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.blue {
+    background: rgba(84, 144, 245, 1);
+    border: 2px solid rgba(84, 144, 245, 1);
+}
+
+.blue:hover {
+    background: transparent;
+    color: rgba(84, 144, 245, 1);
+}
+
+.green {
+    background: rgba(9, 161, 92, 1);
+    border: 2px solid rgba(9, 161, 92, 1);
+}
+
+.green:hover {
+    background: transparent;
+    color: rgba(9, 161, 92, 1);
+}
+
+.yellow {
+    background: rgba(255, 194, 57, 1);
+    border: 2px solid rgba(255, 194, 57, 1);
+}
+
+.yellow:hover {
+    background: transparent;
+    color: rgba(255, 194, 57, 1);
+}
+
+.yunus-quote {
+    padding: 48px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 24px top 24px;
+    background-size: 84px 84px;
+}
+
+
+.yunus-quote h5 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.yunus-quote h4 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.yunus-quote p {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
 }
