@@ -139,9 +139,7 @@ nav p {
 }
 
 .vision {
-
     width: 410.67px;
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -157,7 +155,7 @@ nav p {
     font-size: 16px;
     font-weight: 400;
     margin-top: 0;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
 }
 
 .vision-1 {
@@ -172,7 +170,7 @@ nav p {
     background: rgba(247, 235, 207, 1);
 }
 
-.vision-container h1 .opinion-container h1 {
+.heading {
     margin-bottom: 24px;
     color: rgba(14, 14, 14, 1);
     font-size: 40px;
@@ -185,6 +183,7 @@ nav p {
     font-weight: 400;
     margin-bottom: 32px;
 }
+
 
 .learn-more-btn {
     padding: 11px 20px 11px 20px;
@@ -319,4 +318,53 @@ nav p {
 .opinion-select:hover {
     background-color: #d4ebe0;
     border-color: #80bfa6;
+}
+
+/* news styles */
+.news-container p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.news {
+    padding: 48px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    gap: 32px;
+    margin-bottom: 24px;
+}
+
+.satelite-img {
+    border-radius: 14px;
+    object-fit: cover;
+}
+
+.date {
+    display: flex;
+    gap: 12px;
+}
+.date p{
+    
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.content h2 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+
+.news-desc {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 12px 0px 32px 0px;
 }
