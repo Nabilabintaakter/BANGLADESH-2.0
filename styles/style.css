@@ -346,8 +346,9 @@ nav p {
     display: flex;
     gap: 12px;
 }
-.date p{
-    
+
+.date p {
+
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     font-weight: 400;
@@ -367,4 +368,89 @@ nav p {
     font-size: 16px;
     font-weight: 400;
     margin: 12px 0px 32px 0px;
+}
+
+/* donate styles */
+.donate-container {
+    margin: 80px 0px;
+}
+
+.donate-heading h1 {
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.donate-heading p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.donate-box {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 0px;
+}
+
+.box {
+    height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.1s;
+
+}
+
+.box:hover {
+    background: rgba(198, 228, 214, 1);
+}
+
+.box-2 {
+    background: rgba(198, 228, 214, 1);
+}
+
+.input-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-container input {
+    width: 80%;
+    height: 64px;
+    padding: 20px 40px 20px 40px;
+    box-sizing: border-box;
+    border: none;
+    background: rgba(255, 255, 255, 1);
+}
+
+input::placeholder {
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+input {
+    text-align: center;
+}
+.donate-now-btn{
+    text-align: center;
+    margin-top: 32px;
 }
