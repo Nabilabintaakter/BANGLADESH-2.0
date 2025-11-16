@@ -373,6 +373,7 @@ nav p {
 /* donate styles */
 .donate-container {
     margin: 80px 0px;
+    text-align: center;
 }
 
 .donate-heading h1 {
@@ -450,7 +451,85 @@ input::placeholder {
 input {
     text-align: center;
 }
-.donate-now-btn{
+
+.donate-now-btn {
     text-align: center;
     margin-top: 32px;
+}
+
+/* newsletter styles */
+.newsletter-container {
+    text-align: center;
+    padding: 80px 100px 80px 100px;
+    border-radius: 24px;
+    background: rgba(198, 228, 214, 1);
+    margin-bottom: 80px;
+}
+
+.newsletter-container h1 {
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.newsletter-container p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.newsletter-input-box {
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-input{
+    width: 600px;
+    padding: 18px 40px 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgba(255, 255, 255, 1);
+    border: none;
+    font-size: 18px;
+    outline: none;
+}
+
+.newsletter-input-box input::placeholder {
+    text-align: left;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.subscribe-btn {
+    padding: 17.5px 34px 17.5px 34px;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background: rgba(0, 106, 80, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.1s;
+    border: 1px solid rgba(0, 106, 80, 1);
+}
+
+.subscribe-btn:hover {
+    background: transparent;
+    color: rgba(0, 106, 80, 1);
+}
+
+.note {
+    color: rgba(14, 14, 14, 0.7);
 }
